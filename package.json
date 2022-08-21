@@ -1,6 +1,5 @@
 {
-  "name": "vite-library-example",
-  "private": true,
+  "name": "@memochou1993/vite-library-example",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

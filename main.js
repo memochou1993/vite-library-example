@@ -4,4 +4,4 @@ const hello = () => {
 
 export {
   hello,
-}
+};
