@@ -6,7 +6,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, 'main.js'),
       name: 'MyLib',
-      fileName: 'my-lib',
+      fileName: (format) => `my-lib.${format}.js`,
     },
     rollupOptions: {
       external: [

@@ -8,9 +8,13 @@
   </head>
   <body>
     <div id="app"></div>
-    <script src="dist/my-lib.umd.cjs"></script>
-    <script src="/preview.umd.js"></script>
-    <script type="module" src="dist/my-lib.js"></script>
-    <script type="module" src="/preview.js"></script>
+    <script src="dist/my-lib.umd.js"></script>
+    <script>
+      MyLib.hello();
+    </script>
+    <script type="module">
+      import { hello } from '/dist/my-lib.es.js';
+      hello();
+    </script>
   </body>
 </html>
